@@ -1,7 +1,7 @@
 <h1>:star: STARz ONLY :star:</h1>
 
 ```diff
-# StarzOnly full-stack MERN project built by arnold "star" zulu.
+# StarzOnly is a full-stack MERN project built by arnold "star" zulu.
 # Is still under development
 ```
 
@@ -108,7 +108,7 @@
     </li>
 
 ```diff
-# for connecting firebase to app
+# connects firebase to app
 ```
    <li>
       <em>
@@ -142,7 +142,7 @@
     </li>
     
 ```diff
-# for project side bar icons
+# for project icons
 ```
 
    <li>
@@ -177,6 +177,17 @@
     
 ```diff
 # middleware for async actions
+```
+   <li>
+      <em>
+        <strong>
+          react-redux:
+        </strong>
+       </em>
+    </li>
+    
+```diff
+# connects redux to react
 ```
 
    <li>

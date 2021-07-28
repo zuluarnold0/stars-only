@@ -68,7 +68,7 @@ const HomePage = () => {
                     <div className='home-page-footer'>
                         <p className='home-page-footer-item'>Email: zuluarnold0@gmail.com </p>
                         <p className='home-page-footer-item'> star arnold © 2021</p>
-                        <p className='home-page-footer-item'>LinkedIn: <Link className='home-page-link' to='https://www.linkedin.com/in/arnold-zulu-532539150/'>Arnold Zulu</Link> </p>
+                        <p className='home-page-footer-item'>LinkedIn: <Link className='home-page-link' to='nkedin.com/in/arnold-zulu-532539150'>Arnold Zulu</Link> </p>
                     </div>
                 </footer>
             </div>
