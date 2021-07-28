@@ -1,0 +1,42 @@
+.chats__footer {
+    padding: 10px 20px 20px 20px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.chat-footer-text-area {
+    width: 94%;
+    outline: none;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.chat-upload-label {
+    font-size: 14px;
+}
+
+.chat-upload-file-name {
+    font-size: 14px;
+    color: rgb(30, 177, 221);
+    margin-left: 10px;
+  }
+
+.chat-upload-label:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.chat-footer-button {
+    float: right;
+    padding: 8px 14px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.chat-footer-button:hover {
+    background-color:#ddd;
+    cursor: pointer;
+}

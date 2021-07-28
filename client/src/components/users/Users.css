@@ -1,0 +1,14 @@
+.users-container {
+    background-color: #eee;
+    display: flex;
+}
+
+.users {
+    margin-left: 20px;
+}
+
+.users-search-count {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: rgb(12, 100, 128);
+}

@@ -1,0 +1,109 @@
+.side-bar-skeleton {
+    animation: skeleton 1s ease infinite alternate;
+}
+
+@keyframes skeleton {
+    to {
+        opacity: 0.5;
+    }
+}
+
+.side-bar-skeleton {
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 180px;
+    min-height: 100vh;
+}
+
+.side-bar-skeleton-top,
+.side-bar-skeleton-bottom {
+    width: 80%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-bar-skeleton-top {
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+
+.logo-skeleton {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+
+.brand-skeleton {
+    cursor: pointer;
+    height: 20px;
+    width: 60px;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+
+.side-bar-skeleton-center {
+    margin-bottom: 10px;
+}
+
+.side-bar-skeleton-center-item {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+
+.side-bar-skeleton-center-item-img {
+    display: none;
+}
+
+.side-bar-skeleton-center-item-info-name {
+    width: 50px;
+    height: 18px;
+    margin: auto;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+
+.list-side-bar-skeleton {
+    padding: 0;
+    width: 100%;
+}
+.list-item-side-bar-skeleton {
+    margin: 20px 0 30px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.list-item-icon-side-bar-skeleton {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+
+.list-item-text-side-bar-skeleton {
+    height: 18px;
+    width: 80px;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+
+@media only screen and (max-width: 639px) {
+    .side-bar-skeleton {
+        width: 50px;
+    }
+    .list-item-icon-side-bar-skeleton {
+        margin: auto;
+    }
+    .logo-skeleton {
+        margin: auto;
+    }
+    .brand-skeleton,
+    .list-item-text-side-bar-skeleton,
+    .side-bar-skeleton-center {
+        display: none;
+    }
+}

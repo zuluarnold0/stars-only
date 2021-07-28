@@ -1,0 +1,26 @@
+.comment-list-container {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.comment-list-span-box {
+    padding: 10px;
+}
+
+.comment-list-span {
+    color:#555;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.comment-list-no-comments {
+    width: calc(100% - 40px);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.comment-list-no-comments-txt {
+    color:rgba(85, 85, 85, 0.788);
+}

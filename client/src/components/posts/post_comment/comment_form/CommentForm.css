@@ -1,0 +1,47 @@
+.comment-form {
+    width: calc(100% - 40px);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.comment-form-label-input-box {
+    margin:  0  0 10px 0;
+}
+
+.comment-form-label {
+    color: rgba(105, 104, 104, 0.87);
+    font-size: 14px;
+}
+
+.comment-form-input {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #cccc;
+    outline: none;
+    width: 100%;
+}
+
+.comment-form-input:focus {
+    border-bottom: 2px solid rgb(30, 177, 221);
+}
+
+.comment-button {
+    padding: 4px 20px;
+    background-color: rgb(30, 177, 221);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.comment-button-disabled {
+    padding: 4px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: #aaa;
+    background-color: #eee;
+}

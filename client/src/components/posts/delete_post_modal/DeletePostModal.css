@@ -1,0 +1,88 @@
+.delete-post-modal {
+    display: block; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+  /* Modal Content */
+.delete-post-modal-content {
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: 20% auto;
+  width: 80%;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.delete-post-modal-content-heading {
+  padding-bottom: 5px;
+  font-family: sans-serif;
+  color: #111;
+}
+
+.delete-post-modal-content-message {
+  padding: 10px 0;
+  font-size: 'Roboto';
+  color: #444;
+}
+
+.delete-post-modal-content-options {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-post-modal-content-options-delete-disabled,
+.delete-post-modal-content-options-delete,
+.delete-post-modal-content-options-cancel {
+  margin-left: 10px;
+  padding: 6px 24px;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 20px;
+}
+
+
+.delete-post-modal-content-options-cancel:hover,
+.delete-post-modal-content-options-delete:hover {
+  color: #333;
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.delete-post-modal-content-options-delete  {
+  background-color: crimson;
+  color: #fff;
+}
+
+.delete-post-modal-content-options-cancel {
+  background-color: #ccc;
+}
+
+.delete-post-modal-content-options-delete-disabled {
+  background-color: #eee;
+  color: grey;
+}
+
+.delete-post-alert-failure-msg, 
+.delete-post-alert-success {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px;
+}
+
+.delete-post-alert-failure-msg {
+  background-color: rgb(235, 85, 85);
+}
+
+.delete-post-alert-success {
+  background-color: rgb(14, 104, 51);
+}

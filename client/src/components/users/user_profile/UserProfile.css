@@ -1,0 +1,154 @@
+.user-profile {
+    background-color: #eee;
+    display: flex;
+}
+
+.user-profile-container {
+    margin: 50px 0 0 50px;
+}
+
+.user-profile-card {
+    width: 550px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+}
+
+.user-profile-info {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.user-profile-info-img-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.user-profile-info-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 4px solid rgb(30, 177, 221);
+    object-fit: cover;
+}
+
+.user-profile-name-gender {
+    margin: 10px 0 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.user-profile-name {
+    font-weight: 700;
+    font-size: 17px;
+    color: #222;
+}
+
+.user-profile-gender {
+    font-weight: 100;
+    font-size: 14px;
+    color: dimgray;
+}
+.user-profile-followers-followings-posts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-profile-followers,
+.user-profile-followings,
+.user-profile-posts {
+    width: 33.3%;
+    text-align: center;
+    background-color: rgba(30, 177, 221, 0.274);
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.user-profile-icons,
+.user-profile-count {
+    color: dimgray;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.user-profile-bio {
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.user-profile-followings-card {
+    padding: 0 20px;
+}
+
+.user-profile-follow-chat {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+
+.user-profile-follow-link {
+    padding: 4px 20px;
+    background-color: rgb(30, 177, 221);
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid rgb(30, 177, 221);
+    cursor: pointer;
+}
+
+.user-profile-chat-link {
+    padding: 4px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #eee;
+    background-color: #eee;
+    cursor: pointer;
+    bottom: 0;
+}
+
+.user-profile-right-img-box {
+    background-color: #eee;
+    width: 60%;
+}
+
+.user-profile-right-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-profile-not-found {
+    margin: 30px;
+    text-align: center;
+}
+
+.user-profile-not-found-heading {
+    color: palevioletred;
+}
+
+.user-profile-not-found-text {
+    color: rgba(105, 105, 105, 0.767);
+}
+
+@media only screen and (max-width: 640px) {
+    .user-profile-container {
+        margin: 20px 0 0 20px;
+    }
+    .user-profile-card {
+        width: 220px;
+    }
+    .user-profile-right-img-box {
+        display: none;
+    }
+    .user-profile-info {
+        width: 100%;
+    }
+    .user-profile-info-img-box {
+        margin: auto;
+    }
+}

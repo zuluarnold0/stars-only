@@ -1,0 +1,46 @@
+.chats-main-container {
+    background-color: rgba(224, 221, 221, 0.308);
+    display: flex;
+}
+
+.chat-main-box {
+    display: flex;
+}
+
+.chats-chat-room-div {
+    width: 350px;
+    border-radius: 6px;
+    margin: 20px;
+}
+
+.chats-chat-room-friends {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    width: calc(100% - 20px);
+    background-color: #fff;
+}
+.chats-chat-room-box {
+    height: 480px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.chat-user-profile-box {
+    max-height: 400px;
+    background-color: rgba(34, 190, 238, 0.178);
+    padding: 20px 0;
+    width: 260px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+    .chats-chat-room-div {
+        width: 260px;
+    }
+    .chats-chat-room-box {
+        height: 410px;
+    }
+    .chat-user-profile-box {
+        display: none;
+    }
+}

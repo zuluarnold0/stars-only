@@ -1,0 +1,44 @@
+.comment-comment-card {
+    width: calc(100% - 40px);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.comment-comment-card-header {
+    display: flex;
+    align-items: center;
+}
+
+.comment-comment-card-header-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.comment-comment-card-name-time {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.comment-comment-card-name {
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.comment-comment-card-time {
+    font-weight: 100;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.comment-comment-card-content {
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+

@@ -1,0 +1,63 @@
+.dash-board {
+    background-color: #eee;
+    display: flex;
+}
+
+.dash-board-posts,
+.dash-board-right-bar {
+    margin: 0 0 0 20px;
+}
+
+.right-bar-modal-message {
+    background-color: rgb(235, 85, 85);
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.dash-board-followings-card-sk,
+.dash-board-followings-card {
+    margin-bottom: 20px;
+}
+
+.dash-board-followings-card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding-left: 20px;
+    position: sticky;
+    top: 0;
+    width: 240px;
+}
+
+.dash-board-right-bar-message-box {
+    background-color: #fff;
+    border-radius: 5px;
+    position: sticky;
+    padding: 10px 20px;
+    width: 220px;
+    position: sticky;
+    top: 455px;
+}
+
+.dash-board-right-bar-message-heading {
+    color: rgba(51, 51, 51, 0.548);
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.dash-board-right-bar-message-txt {
+    color: rgba(105, 105, 105, 0.877);
+}
+
+.message-text-author {
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 640px) {
+    .dash-board-right-bar-message-box,
+    .dash-board-followings-card,
+    .dash-board-followings-card-sk {
+        display: none;
+    }
+}

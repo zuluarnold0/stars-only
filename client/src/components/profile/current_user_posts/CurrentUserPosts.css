@@ -1,0 +1,27 @@
+
+.current-user-posts-box,
+.current-user-post-sk-box {
+    width: calc(100% - 20px);
+    padding: 0 20px 0 0;
+}
+
+.current-user-posts-no-posts {
+    padding: 10px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    text-align: center;
+}
+
+.current-user-posts-no-posts-heading {
+    color: rgba(105, 105, 105, 0.767);
+}
+
+@media only screen and (max-width: 640px) {
+    .current-user-posts-no-posts {
+        width: 100%;
+    }
+    .current-user-posts-box {
+        width:100%;
+    }
+}

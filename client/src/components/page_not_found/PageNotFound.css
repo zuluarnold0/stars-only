@@ -1,0 +1,19 @@
+.page-not-found-box {
+  background-color: #eee;
+  display: flex;
+  min-height: 100vh;
+}
+
+.page-not-found {
+  margin-left: 20px;
+}
+ 
+.page-not-found .heading {
+    padding: 80px 0 40px 0;
+    color: palevioletred;
+}
+
+.page-not-found .text {
+  color: #555;
+  font-size: 15px;
+}

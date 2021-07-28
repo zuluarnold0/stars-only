@@ -1,0 +1,19 @@
+.profile-right-cover-box-sk {
+    animation: skeleton 1s ease infinite alternate;
+}
+
+@keyframes skeleton {
+    to {
+        opacity: 0.5;
+    }
+}
+
+.profile-right-cover-box-sk {
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+}
+
+.profile-right-cover-sk {
+    display: none;
+}

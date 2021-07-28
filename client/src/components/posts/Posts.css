@@ -1,0 +1,22 @@
+.posts-container {
+    width: 500px;
+}
+
+.no-posts-container {
+    text-align: center;
+}
+
+.no-posts-heading {
+    color: palevioletred;
+}
+
+.no-posts-text {
+    color: rgba(105, 105, 105, 0.767);
+}
+
+
+@media only screen and (max-width: 640px) {
+    .posts-container {
+        width: 300px;
+    }
+}

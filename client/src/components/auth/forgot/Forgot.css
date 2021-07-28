@@ -1,0 +1,96 @@
+.forgot-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+.forgot-form {
+    width: 40%;
+}
+
+.forgot-header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.forgot-label-input-box {
+    width: 100%;
+    margin: 10px 0;
+    font-family: sans-serif;
+}
+
+.forgot-label {
+    color: rgba(138, 136, 136, 0.87);
+    font-size: 14px;
+}
+
+.forgot-input {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #cccc;
+    width: 100%;
+    padding: 8px 0;
+    outline: none;
+}
+
+.forgot-input:focus {
+    border-bottom: 2px solid rgb(30, 177, 221);
+}
+
+.forgot-button {
+    padding: 8px 30px;
+    background-color: rgb(30, 177, 221);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin: 20px 0 15px 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.forgot-button-disabled {
+    padding: 8px 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: #aaa;
+    margin: 20px 0 15px 0;
+    background-color: #eee;
+    width: 100%;
+}
+
+.forgot-sign-in-text-link {
+    color: rgb(30, 177, 221);
+    margin: 3px 0;
+    text-align: center;
+}
+
+.forgot-sign-up-text-link {
+    text-align: center;
+}
+
+.forgot-alert-failure-msg, .forgot-alert-success {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+}
+
+.forgot-alert-failure-msg {
+    background-color: rgb(235, 85, 85);
+}
+
+.forgot-alert-success {
+    background-color: rgb(14, 104, 51);
+}
+
+@media only screen and (max-width: 640px) {
+    .forgot-form {
+        width: 80%;
+    }
+}

@@ -1,0 +1,39 @@
+.post-item {
+    background-color: #eee;
+    display: flex;
+}
+
+.post-item-post {
+    margin-left: 20px;
+    width: 440px;
+}
+
+.post-item-post-not-found {
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 100px;
+}
+
+.post-item-post-not-found-heading {
+    color: rgb(12, 100, 128);
+}
+
+.post-item-post-not-found-text {
+    color: rgba(105, 105, 105, 0.767);
+}
+
+.post-item-post-card-header {
+    width: 100%;
+    background-color: #fff;
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 640px) {
+    .post-item-post,
+    .post-item-no-post-found-heading {
+        margin-left: 10px;
+        width: 260px;
+    }
+}

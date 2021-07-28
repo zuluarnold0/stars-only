@@ -1,0 +1,45 @@
+.list-users-container {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.no-users {
+    text-align: center;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 50px 0;
+}
+
+.no-users .heading {
+    color: rgb(12, 100, 128);
+    margin-bottom: 10px;
+}
+
+.no-users .text {
+  color: #555;
+  font-size: 15px;
+}
+
+
+.user-card-skeleton-box{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+@media only screen and (max-width: 640px) {
+    .list-users-container {
+        width: 260px;
+    }
+    .no-users {
+        width: 260px;
+    }
+    .user-card-skeleton-box{
+        width: 260px;
+    }
+}
+  

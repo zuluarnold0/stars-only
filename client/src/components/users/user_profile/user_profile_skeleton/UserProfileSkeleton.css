@@ -1,0 +1,131 @@
+.user-profile-sk-container {
+    animation: skeleton 1s ease infinite alternate;
+}
+
+@keyframes skeleton {
+    to {
+        opacity: 0.5;
+    }
+}
+
+.user-profile-sk {
+    display: flex;
+}
+
+.user-profile-sk-container {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.user-profile-sk-card {
+    width: 550px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    display: flex;
+}
+
+.user-profile-sk-info {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.user-profile-sk-info-img-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+
+.user-profile-sk-info-img {
+    display: none;
+}
+
+.user-profile-sk-name-gender {
+    margin: 10px 0 20px 0;
+    width: 100%;
+}
+
+.user-profile-sk-name {
+    margin: auto;
+    height: 17px;
+    width: 50px;
+    background-color: rgba(224, 221, 221, 0.308);
+    margin-bottom: 5px;
+}
+
+.user-profile-sk-gender {
+    margin: auto;
+    height: 14px;
+    width: 20px;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+
+.user-profile-sk-followers-followings-posts {
+    display: flex;
+    justify-content: center;
+}
+
+.user-profile-sk-followers,
+.user-profile-sk-followings,
+.user-profile-sk-posts {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px auto;
+}
+
+.user-profile-sk-icons,
+.user-profile-sk-count {
+    height: 14px;
+    width: 20px;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+
+.user-profile-sk-bio {
+    height: 14px;
+    width: 120px;
+    margin: 20px auto;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+.user-profile-sk-followings-card {
+    padding: 0 20px;
+}
+
+.user-profile-sk-follow-chat {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+
+.user-profile-sk-follow-link,
+.user-profile-sk-chat-link {
+    padding: 4px 20px;
+    background-color: rgba(224, 221, 221, 0.308);
+    border-radius: 20px;
+    height: 14px;
+}
+
+.user-profile-sk-right-img-box {
+    background-color: rgba(224, 221, 221, 0.308);
+    width: 60%;
+}
+
+.user-profile-sk-right-img {
+    display: none;
+}
+
+@media only screen and (max-width: 640px) {
+    .user-profile-sk-card {
+        width: 220px;
+    }
+    .user-profile-sk-right-img-box {
+        display: none;
+    }
+    .user-profile-sk-info {
+        width: 100%;
+    }
+    .user-profile-sk-info-img-box {
+        margin: auto;
+    }
+}

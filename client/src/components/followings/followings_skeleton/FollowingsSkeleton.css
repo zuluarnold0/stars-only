@@ -1,0 +1,39 @@
+.followings-skeleton-box {
+    animation: skeleton 1s ease infinite alternate;
+}
+
+@keyframes skeleton {
+    to {
+        opacity: 0.5;
+    }
+}
+
+.followings-skeleton-box {
+    background-color: #fff;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.followings-skeleton-wrapper {
+    position: relative;
+    overflow-x: hidden;
+    width: 180px;
+}
+
+.followings-skeleton {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.followings-skeleton-item {
+    margin-right: 10px;
+    width:40px;
+    height: 40px;
+    background-color: rgba(224, 221, 221, 0.308);
+    border-radius: 50%;
+}
+
+.followings-skeleton-item-img {
+    display: none;
+}

@@ -1,0 +1,79 @@
+.upload-post {
+  width: 460px;
+  background-color: #fff;
+  margin: 0 0 20px 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.upload-post-header {
+  color: #333;
+}
+
+.post-content-error-msg, .post-content-success-msg {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.post-content-error-msg {
+  color: #fff;
+  background-color: rgb(235, 85, 85);
+}
+
+.post-content-success-msg {
+  color: #fff;
+  background-color: rgb(14, 104, 51);
+}
+
+.upload-post input[type='text'] {
+  width: 95%;
+  outline: none;
+  margin: 12px 0px;
+  padding: 6px 10px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: #eee;
+}
+
+.post-upload-label {
+  font-size: 14px;
+  color: #444;
+}
+
+.post-upload-file-name {
+  font-size: 14px;
+  color: rgb(30, 177, 221);
+  margin-left: 10px;
+}
+
+.post-upload-label:hover {
+  text-decoration: underline;
+}
+
+.post-button {
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: #eee;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  outline: none;
+  border: 1px solid #ddd;
+}
+
+.post-button:hover {
+  cursor: pointer;
+}
+
+.post-upload-label:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 640px) {
+  .upload-post {
+      width: 260px;
+  }
+}

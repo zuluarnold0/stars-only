@@ -1,0 +1,76 @@
+.friends-profile-skeleton {
+    max-height: 400px;
+    background-color: #fff;
+    padding: 20px 0;
+    width: 260px;
+    margin-top: 20px;
+}
+
+.friends-profile-skeleton-pic-box {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+
+.friends-profile-skeleton-pic {
+    display: none;
+}
+
+.friends-profile-skeleton-name-gender {
+    margin: 20px 0;
+}
+
+.friends-profile-skeleton-name {
+    height: 20px;
+    width: 60px;
+    margin: auto;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+
+.friends-profile-skeleton-followers-followings-posts {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.friends-profile-skeleton-followers,
+.friends-profile-skeleton-followings,
+.friends-profile-skeleton-posts {
+    width: 20%;
+    height: 14px;
+    text-align: center;
+    background-color: rgba(224, 221, 221, 0.308);
+}
+
+.friends-profile-skeleton-text {
+    height: 11px;
+    width: 30px;
+    background-color: #fff;
+}
+
+.friends-profile-skeleton-user-info {
+    padding: 0 20px;
+}
+
+.friends-profile-skeleton-user-info-heading {
+    background-color: rgba(224, 221, 221, 0.308);
+    height: 18px;
+    width: 60px;
+    margin: 0 0 8px 0;
+}
+
+.friends-profile-skeleton-user-info-detail {
+    background-color: rgba(224, 221, 221, 0.308);
+    width: 100px;
+    height: 12px;
+    margin: 5px 0;
+}
+
+.friends-profile-skeleton-user-info-detail-bio {
+    background-color: rgba(224, 221, 221, 0.308);
+    width: 130px;
+    height: 14px;
+    margin: 20px 0;
+}

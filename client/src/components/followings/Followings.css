@@ -1,0 +1,46 @@
+.followings-wrapper {
+    position: relative;
+    overflow-x: hidden;
+    width: 94%;
+}
+
+.followings-arrow {
+    position: absolute;
+    left: 91%;
+    font-size: 22px;
+    cursor: pointer;
+    color: rgb(30, 177, 221);
+    top: 17px;
+    opacity: 0.8;
+}
+
+.followings {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.followings-item {
+    margin-right: 10px;
+    width:40px;
+    height: 40px;
+}
+
+.followings-item-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    transition: all 0.8s ease-in-out;
+    border-radius: 50%;
+}
+
+.no-followings {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.no-followings-heading {
+    color: rgba(105, 105, 105, 0.767);
+}

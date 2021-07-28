@@ -1,0 +1,13 @@
+.chats-container {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-rows: 54px 310px 120px;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 640px) {
+    .chats-container {
+        grid-template-rows: 50px 250px 100px;
+    }
+}
